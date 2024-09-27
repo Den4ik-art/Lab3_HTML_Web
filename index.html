@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Lab3</title>
+</head>
+<body>
+    <div class="LandingPage">
+        <header class="header">
+            <div class="Title">
+                <h1>Сторінка студента</h1>
+            </div>
+            <div class="MainMenu">
+                <div class="textINmainmenu">
+                    <p><a href="#pointbio">Біографія</a></p>
+                    <p><a href="#pointachievement">Досягнення</a></p>
+                </div>
+                <img class="imgINmainmenu" src="img/student.png" alt="student logo">
+                <div class="textINmainmenu_1">
+                    <p><a href="#pointinfo">Інформація</a></p>
+                    <p><a href="#pointschedule">Розклад</a></p>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="sidebar">
+                <h2 class="sidebarHeader">Цікаві факти</h2>
+                <p class="InterestingInfo"><span class="InterestingFacts">Колекціонер з дитинства:</span> Іван почав збирати свою колекцію Lego ще в 5 років і зараз має більше ніж 50 різних наборів, серед яких є рідкісні та колекційні екземпляри.</p>
+                <p class="InterestingInfo"><span class="InterestingFacts">Майстер складних моделей:</span> Одного разу він зібрав модель космічного корабля з понад 3000 деталей лише за один день, що стало його особистим рекордом.</p>
+                <p class="InterestingInfo"><span class="InterestingFacts">Lego та програмування:</span> Іван інтегрував своє захоплення Lego у навчання програмуванню, створивши кілька роботизованих моделей на базі Lego Mindstorms, які можуть виконувати базові задачі, такі як сортування об'єктів за кольором.</p>
+                <p class="InterestingInfo"><span class="InterestingFacts">Конструктор майбутнього:</span> Він мріє одного дня створити власну лінійку Lego-наборів, присвячену програмуванню та робототехніці, щоб заохочувати дітей до STEM-наук через гру.</p>
+                <p class="InterestingInfo"><span class="InterestingFacts">Реконструктор архітектури:</span> Іван відновив в масштабі Lego кілька відомих архітектурних пам'яток, таких як Ейфелева вежа та Біг-Бен, витративши на це кілька тижнів роботи.</p>
+                <p class="InterestingInfo"><span class="InterestingFacts">Lego-хакатон:</span>Lego-хакатон: Іван брав участь у міжнародному онлайн Lego-хакатоні, де розробив модель інтерактивного міста з автономними автомобілями, використовуючи спеціальні датчики Lego для руху та взаємодії.</p>
+            </div>
+            <div class="MainContent">
+                <a id="pointbio"></a>
+                <h2 class="Headernames">Біографія</h2>
+                <div class="bio">
+                    <p class="textbio">Іван Іваненко — студент 3-го курсу факультету інформаційних технологій Київського національного університету імені Тараса Шевченка за спеціальністю "Комп'ютерні науки". Із самого дитинства Іван захоплювався технологіями та конструюванням. Одним із його найбільших хобі було і залишається складання моделей з Lego, де він навчився креативно мислити і вирішувати складні задачі. Ця любов до конструювання та творчого підходу до рішення проблем природно перенеслася у його інтерес до програмування і проєктування складних систем.
+                        В університеті Іван став активним учасником різних технічних спільнот. З особливим ентузіазмом займається вивченням алгоритмів, машинного навчання та штучного інтелекту. В майбутньому він бачить себе розробником високотехнологічних рішень у сфері штучного інтелекту, робототехніки або кібербезпеки.</p>
+                    <img class="imgbio" src="img/lloyd.jpg" alt="Lloyd photo">
+                </div>
+                <a id="pointinfo"></a>
+                <h2 class="Headernames">Інформація про дисципліни</h2>
+                <div class="info">
+                    <p class="infoSubject"><span class="nameSubject">Алгоритми та структури даних:</span> вивчення основних алгоритмів, таких як сортування, пошук та обробка даних, а також способи їх оптимізації.</p>
+                    <p class="infoSubject"><span class="nameSubject">Математичний аналіз:</span> закладення основ для розуміння більш складних математичних концепцій, необхідних для побудови алгоритмів.</p>
+                    <p class="infoSubject"><span class="nameSubject">Програмування на Python і Java:</span> розвиток навичок кодування на популярних мовах програмування для створення додатків та системного програмного забезпечення.</p>
+                    <p class="infoSubject"><span class="nameSubject">Штучний інтелект:</span> вивчення основ машинного навчання, нейронних мереж та обробки великих даних.</p>
+                    <p class="infoSubject"><span class="nameSubject">Бази даних та SQL:</span> проєктування та керування базами даних, основи SQL для ефективної роботи з інформацією.</p>
+                </div>
+                <a id="pointschedule"></a>
+                <h2 class="Headernames">Розклад занять</h2>
+                <div class="schedule">
+                    <div class="monday">
+                        <h3>Понеділок</h3>
+                        <ul class="scheduletext">
+                            <li>09:00–10:30 — Алгоритми та структури даних</li>
+                            <li>11:00–12:30 — Мат. аналіз</li>
+                        </ul>   
+                    </div>
+                    <div class="tuesday">
+                        <h3>Вівторок</h3>
+                        <ul class="scheduletext">
+                            <li>10:00–11:30 — Програмування на Python</li>
+                            <li>12:00–13:30 — Бази даних та SQL</li>
+                        </ul>   
+                    </div>
+                    <div class="wednesday">
+                        <h3>Середа</h3>
+                        <ul class="scheduletext">
+                            <li>09:00–10:30 — Штучний інтелект</li>
+                            <li>11:00–12:30 — Програмування на Java</li>
+                        </ul>   
+                    </div>
+                    <div class="thursday">
+                        <h3>Четвер</h3>
+                        <ul class="scheduletext">
+                            <li>13:00–14:30 — Практика з кібербезпеки</li>
+                        </ul>   
+                    </div>
+                    <div class="friday">
+                        <h3>П'ятниця</h3>
+                        <ul class="scheduletext">
+                            <li>09:00–10:30 — Проектний семінар (груповий проект)</li>
+                        </ul>   
+                    </div>
+                </div>
+                <a id="pointachievement"></a>
+                <h2 class="Headernames">Досягнення</h2>
+                <div class="achievement">
+                    <ul class="textAchievement">
+                        <li>Учасник хакатону "KNU Hackathon", де команда зайняла 2-е місце з проєктом, присвяченим автоматизації бізнес-процесів.</li>
+                        <li>Сертифікований спеціаліст з машинного навчання за програмою Coursera.</li>
+                        <li>Автор декількох відкритих проєктів на GitHub, зокрема чат-бота на основі Python для автоматизації щоденних задач.</li>
+                        <li>Співорганізатор студентського клубу "AI & Data Science", де проводив лекції та воркшопи для однокурсників.</li>
+                    </ul>
+                    <img class="achievementFirst" src="img/legocity.jpg" alt="lego city">
+                    <img class="achievementSecond" src="img/lego.webp" alt="lego">
+                    <img class="achievementThird" src="img/legoninjago.webp" alt="lego nijago">
+                </div>
+            </div>
+        </main>
+        <div class="Footer">
+            <p class="sponsortext">Спонсори нашого проекту</p>
+            <div class="sponsor">
+                <img class="sponsor1" src="img/lego_vs.png" alt="logo vs">
+                <img class="sponsor2" src="img/logo_css.png" alt="logo css">
+                <img class="sponsor3" src="img/lego_html.png" alt="logo html">
+                <img class="sponsor4" src="img/logo_js.png" alt="logo js">
+                <img class="sponsor5" src="img/logo_lego.png" alt="lego logo">
+                <img class="sponsor6" src="img/logo_legomen.webp" alt="legomen logo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

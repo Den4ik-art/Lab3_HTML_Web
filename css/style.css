@@ -1,0 +1,248 @@
+body {
+    background-color: #D4D9AD;
+    height: 3000px;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #0D6E37;
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: "Inter", arial;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+header{
+    width: 1440px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 1440px;
+    height: 2710px;
+    display: grid;
+    grid-template-columns: 28% 72%;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color:  #D4D9AD;;
+    opacity: 0.9;
+    font-family: "Inter", arial;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #025951;
+    font-family: "Inter", arial;
+    font-size: 32px;
+}
+
+.MainMenu {
+    display: flex;
+}
+
+.textINmainmenu {
+    color: #025951;
+    font-family: "Inter", arial;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.imgINmainmenu {
+    height: 170px;
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.textINmainmenu_1 {
+    color: #025951;
+    font-family: "Inter", arial;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.bio {
+    height: 560px;
+    display: flex;
+}
+
+.Headernames {
+    font-family: "Inter", arial;
+    font-size: 48px;
+    color: #0D6E37;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.imgbio {
+    height: 500px;
+    width: 300px;
+    float: right;
+    margin: 25px 40px 0 40px;
+}
+
+.textbio {
+    font-family: Inter, arial;
+    font-size: 24px;
+    color: #733F2C;
+    text-align: left;
+    text-align: justify;
+}
+
+.info {
+    height: 340px;
+    color: #733F2C;
+    font-family: "Inter", arial;
+    font-size: 24px;
+    text-align: justify;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.nameSubject {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.infoSubject {
+    margin: 5px;
+}
+
+.schedule {
+    height: 630px;
+    display: grid;
+    grid-template-columns: 330px 330px 300px;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 40px;
+}
+
+.monday, .tuesday, .wednesday, .thursday, .friday{
+    background-color: rgba(13, 110, 55, 0.3);
+    height: 280px;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.thursday, .friday {
+    margin-left: 175px;
+}
+
+.scheduletext {
+    color: #025951;
+    font-family: "Inter", arial;
+    opacity: 1;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+.achievement {
+    height: 340px;
+    color: #733F2C;
+    font-family: "Inter", arial;
+    font-size: 24px;
+    text-align: justify;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.textAchievement{
+    margin-bottom: 40px;
+}
+
+.achievementFirst {
+    width: 320px;
+    height: 460px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.achievementSecond {
+    width: 280px;
+    height: 460px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.achievementThird {
+    width: 320px;
+    height: 460px;
+    margin-left: 10px;
+}
+
+.sidebar {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #733F2C;
+    font-family: "Inter", arial;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 250;
+}
+
+.sidebarHeader {
+    color: #0D6E37;
+    opacity: 0.7;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Inter", arial;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.InterestingFacts {
+    font-weight: bold;
+}
+
+.InterestingInfo {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.Footer {
+    width: 1440px;
+    height: 90px;
+    color: #0D6E37;
+    font-family: "Inter", arial;
+    font-weight: 250;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.sponsortext {
+    margin-top: 15px;
+}
+
+.sponsor {
+    margin-left: 640px;
+}
+
+.sponsor1, .sponsor2, .sponsor3, .sponsor4, .sponsor5, .sponsor6 {
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
